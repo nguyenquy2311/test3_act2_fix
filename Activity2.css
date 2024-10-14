@@ -1,0 +1,144 @@
+/* Logo */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@739&family=Sixtyfour+Convergence:SCAN,XELA,YELA@5,35,29&display=swap');
+.logo_ol {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: normal;
+    font-size: 45px;
+    padding-left:15px;
+    color: rgb(19, 39, 195);
+    text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5, 5px -5px 2px rgba(206,89,55,0.07);
+
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+    margin-left: 40px;
+}
+
+a,p,h2 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    flex: 1;
+    display: block;
+    align-items: center;
+    cursor:pointer;
+}
+/*  ----- */
+a:hover {
+    display: block;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(217, 224, 224);
+    font-size: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.item {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    align-items: center;
+}
+
+.item:hover {
+    background-color: rgb(155, 149, 149);
+}
+
+/* Phần 2 */
+.box2{
+    display:flex;
+    justify-content:space-between;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:3vh;
+}
+.ddmmyy_box2{
+   
+}
+.title_box2{
+    display:flex;
+    justify-content:center;
+    margin-top:3vh;
+}
+
+/* Phần 3 */
+.box3{
+    display:flex;
+    margin-left:5%;
+    margin-top:3vh;
+}
+.user_box3{
+    margin-top:1vh;
+    margin-left:1vh;
+}
+.under_border_box3{
+    width:90%;
+    height:5px;
+    margin-left:5%;
+    background-color:black;
+}
+
+
+
+/* Phần 4 */
+.title_box4{
+    text-align:center;
+}
+.box4{
+    margin-left:5%;
+    margin-right:5%;
+}
+
+/* Phần 5 */
+.content_box5{
+    margin-left:5%;
+}
+
+/* Phần 6 */
+
+.last_container{
+    margin-top:3%;
+    margin-left:5%;
+}
+.icon__box1__last_container{
+    text-decoration:none;
+    color:black;
+}
+
+
+
+/* Phần chân */
+.footer{
+    margin-top:2.5%;
+    background-color:rgb(217, 224, 224);
+    display:block;
+    width:100%;
+    text-align:center;
+}
+.footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.h1_footer{
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: calc(1.3rem + .6vw);   
+}
